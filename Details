@@ -1,0 +1,15 @@
+Key Features:
+
+Three-way handshake: Client SYN → Server SYN-ACK → Client ACK
+
+Reliable data transfer: Sequence numbers, acknowledgment numbers, stop-and-wait mechanism
+
+Checksum validation: Ensures integrity of each packet
+
+FIN-based connection teardown: Graceful connection closure
+
+Retransmission: Client retransmits packets on timeout
+
+Lightweight: Pure Python, no external dependencies, easy to run locally
+
+This project is intended only for learning and experimentation. It is not production-ready and does not implement full TCP features like congestion control, sliding window, or fragmentation.
